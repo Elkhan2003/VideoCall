@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Inter;
+	//background: rgb(21, 23, 25);
+	//background: #9336fd;
+	background: url(https://elcho911.netlify.app/Elkhan2003-icons/elcho.gif);
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+button {
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	@media (max-width: 500px) {
+		cursor: default;
+	}
+}
+
+.container {
+	width: 100%;
+	max-width: 1280px;
+	margin-inline: auto;
+	padding-inline: 20px;
+}
